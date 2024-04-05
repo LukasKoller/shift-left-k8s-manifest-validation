@@ -1,0 +1,11 @@
+---
+apiVersion: "stable.example.com/v1"
+kind: CronTab
+metadata:
+  name: my-new-cron-object
+spec:
+  cronSpec: "asdasd asd asd asdas"
+  image: my-awesome-cron-image
+  minReplicas: 0
+  replicas: 5
+  maxReplicas: 10
