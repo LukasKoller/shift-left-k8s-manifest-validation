@@ -1,0 +1,4 @@
+crontab:
+  minReplicas: 0
+  replicas: 20
+  maxReplicas: 10

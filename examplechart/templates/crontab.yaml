@@ -6,6 +6,6 @@ metadata:
 spec:
   cronSpec: "* * * * 5"
   image: my-awesome-cron-image
-  minReplicas: 0
-  replicas: 5
-  maxReplicas: 10
+  minReplicas: {{ .Values.crontab.minReplicas }}
+  replicas: {{ .Values.crontab.replicas }}
+  maxReplicas: {{ .Values.crontab.maxReplicas }}

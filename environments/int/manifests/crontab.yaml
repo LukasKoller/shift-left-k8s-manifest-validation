@@ -5,8 +5,8 @@ kind: CronTab
 metadata:
   name: my-new-cron-object
 spec:
-  cronSpec: "asdasd asd asd asdas"
+  cronSpec: "* * * * 5"
   image: my-awesome-cron-image
   minReplicas: 0
-  replicas: 5
+  replicas: 20
   maxReplicas: 10
